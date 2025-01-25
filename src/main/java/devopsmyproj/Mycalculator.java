@@ -20,7 +20,7 @@ public static void main(String[] args) {
 	Mycalculator calc = new Mycalculator();
 	System.out.println("Sum is "+calc.sum(20,10));
 	System.out.println("difference is "+calc.diff(20,10));
-	System.out.println("multiplication is "+mul.diff(20,10));
+	System.out.println("multiplication is "+calc.mul(20,10));
 	
 	}
 }
