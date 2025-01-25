@@ -14,6 +14,10 @@ public class Mycalculator {
 	public int mul(int a, int b) {
 		return a*b;
 	}
+	
+	public int div(int a, int b) {
+		return a/b;
+	}
 
 public static void main(String[] args) {
 	
@@ -21,6 +25,8 @@ public static void main(String[] args) {
 	System.out.println("Sum is "+calc.sum(20,10));
 	System.out.println("difference is "+calc.diff(20,10));
 	System.out.println("multiplication is "+calc.mul(20,10));
+	System.out.println("divison is "+calc.div(20,10));
+	
 	
 	}
 }
